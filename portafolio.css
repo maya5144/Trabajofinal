@@ -2,7 +2,10 @@
 /* Body */
 body {
 	font-family: source-sans-pro;
-	background-color: #f2f2f2;
+	background: url("images/Background (Web Marialys) [Recuperado].png");
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: fixed;
 	margin-top:0px;
 	margin-right: 0px;
 	height:750px; 
@@ -65,25 +68,147 @@ ul li a {
 ul li:hover a {
 	color: #004899;
 }
-.hero_header {
-	color: #FFFFFF;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 4px;
-}
-/* Hero Section */
-.hero {
-	background: url("images/Fondo de home.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 350px;
-	padding-bottom: 355px;
-	margin-bottom: -0px;
 
-}
+.title{
+		width: 23%;
+        object-fit: contain;
+        margin-bottom: 16px;
+        margin-top: 40px;
+		margin-left:41%;
+        z-index: -300;
+		font-size: 60px;
+	    color: #FFFFFF;
+		font-family:Ebrima;
+	}
+
+.profile-pic {
+        width: 100%;
+    }
+
+
+    .gallery-grid {
+        align-items: end;
+        display: grid;
+        row-gap: 80px;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 100px;
+        margin-left: 60px;
+        margin-bottom: 100px;
+		font-family:Georgia;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+	
+    .image2 {
+        width: 100%;
+
+    }
+
+
+	
+    .image3 {
+        width: 100%;
+    }
+
+	
+    .image4 {
+        width: 100%;
+    }
+
+
+	
+    .image5 {
+        width: 100%;
+    }
+	
+	
+
+    .image6 {
+        width: 100%;
+    }
+
+
+    .photo-block {
+        width: 85%;
+        background: #004899;
+        color: #48CCD1;
+        padding: 4px;
+		text-align:center;
+		font-family:Ebrima;
+    }
+	
+	.photo-block:hover {
+		transform: scale(1.15);
+	}
+
+    .photo-block2 {
+        width: 85%;
+        background: #004899;
+        color: #48CCD1;
+        padding: 4px;
+		text-align:center;
+		font-family:Ebrima;
+    }
+
+	.photo-block2:hover {
+		transform: scale(1.15);
+	}
+	
+    .photo-block3 {
+        width: 85%;
+        background: #004899;
+        color: #48CCD1;
+        padding: 4px;
+		text-align:center;
+		font-family:Ebrima;
+    }
+
+	.photo-block3:hover {
+		transform: scale(1.15);
+	}
+	
+    .photo-block4 {
+        width: 85%;
+        background: #004899;
+        color: #48CCD1;
+        padding: 4px;
+		text-align:center;
+		font-family:Ebrima;
+    }
+	
+	.photo-block4:hover {
+		transform: scale(1.15);
+	}
+
+    .photo-block5 {
+        width: 85%;
+        background: #004899;
+        color: #48CCD1;
+        padding: 4px;
+		text-align:center;
+		font-family:Ebrima;
+    }
+
+	.photo-block5:hover {
+		transform: scale(1.15);
+	}
+	
+    .photo-block6 {
+        width: 85%;
+        background: #004899;
+        color: #48CCD1;
+        padding: 4px;
+		text-align:center;
+		font-family:Ebrima;
+    }
+	
+	.photo-block6:hover {
+		transform: scale(1.15);
+	}
+
 .light {
 	font-weight: bold;
 	color: #717070;
@@ -145,13 +270,7 @@ nav ul li {
 	text-align: center;
 }
 
-.hero_header {
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 22px;
-	text-align: center;
-}
-}
+
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
 .logo {
@@ -179,4 +298,3 @@ nav ul li {
 
 }
 }
-
