@@ -149,14 +149,6 @@ ul li:hover a {
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 }
-.button:hover {
-	background-color: #FEFEFE;
-	color: #C4C4C4;
-	cursor: pointer;
-	
-}
-
-
 
 /* Mobile */
 @media (max-width: 320px) {
@@ -293,7 +285,6 @@ nav ul li {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: #043745;
 }
 .container header nav {
 	margin-top: 0px;
@@ -304,7 +295,7 @@ nav ul li {
 	float: none;
 	overflow: auto;
 	display: inline-block;
-	background: #52bad5;
+	
 }
 header nav ul {
 	padding: 0px;
@@ -352,9 +343,7 @@ nav ul li {
         margin-bottom: 0;
         padding: 1rem;
         height: 120px;
-        font-size: 25px;
-        background: grey;
-        color: #231F20;
+        font-size: 25px; 
     }
 }
 }

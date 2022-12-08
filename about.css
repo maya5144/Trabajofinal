@@ -115,7 +115,7 @@ ul li:hover a {
         overflow: hidden;
         font-size: 175%;
 		line-height: 1.30;
-        color:#D8D8D8;
+        color:#999999;
         padding: 40px;
 		margin-left: -70px;
         margin-bottom: 16px;
@@ -139,7 +139,7 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: #043745;
+	
 }
 header nav ul {
 	padding: 0px;
