@@ -3,9 +3,10 @@
 body {
 	font-family: source-sans-pro;
 	background: url("images/Background (Web Marialys) [Recuperado].png");
-	background-size: cover;
+	background-size:cover;
 	background-repeat: repeat;
 	background-attachment: fixed;
+	display:grid;
 	margin-top:0px;
 	margin-right: 0px;
 	height:750px; 
