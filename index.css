@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 /* Body */
 body {
 	background: url("images/Fondo de home.jpg");
@@ -28,9 +31,8 @@ header {
 	border-bottom: 1px solid #AB2089;
 }
 .logo {
-	font-family:Ebrima;
+	font-family: Fira Sans;
 	color: #AB2089;
-	font-weight: bold;
 	text-align: 50px;
 	width: 20%;
 	float: left;
@@ -50,7 +52,7 @@ header nav ul {
 }
 nav ul li {
 	float: left;
-	font-family:Ebrima;
+	font-family: Fira Sans;
 	color: #FFFFFF;
 	font-size: 14px;
 	text-align: left;
