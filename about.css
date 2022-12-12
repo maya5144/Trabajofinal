@@ -90,8 +90,9 @@ ul li:hover a {
 
     .image-block {
         width: 70%;
-        object-fit: contain;
+        object-fit:cover;
         background: #004899;
+		background-size: 100vw 100vh;
 		margin-left:150px; 
         padding: 10px;
 		height: 326px;
