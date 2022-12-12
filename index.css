@@ -1,10 +1,13 @@
 @charset "UTF-8";
 /* Body */
 body {
+	background: url("images/Fondo de home.jpg");
+	background-repeat: repeat;
+	background-size: cover;
 	margin-top:0px;
 	margin-right: 0px;
 	height:750px; 
-	margin-bottom: 0px;
+	margin-bottom:0px;
 	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200px;
@@ -74,9 +77,6 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background: url("images/Fondo de home.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
 	padding-top: 350px;
 	padding-bottom: 355px;
 	margin-bottom: -0px;
