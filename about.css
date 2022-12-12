@@ -12,7 +12,7 @@ body {
 	font-weight: 200px;
 	background-image:url("images/Background (Web Marialys) [Recuperado].png");
 	background-size:cover; 
-	background-repeat:repeat;
+	background-repeat:no-repeat;
 	background-attachment: fixed;
 		
 }
@@ -78,8 +78,10 @@ ul li:hover a {
         display: grid;
         overflow: hidden;
         grid-template-columns: 1fr 1fr;
+		background-size: cover;
         column-gap: 16px;
         margin-bottom: 16px;
+		min-height: 100%;
         margin-top: 2rem;
         margin-left: 2rem;
         z-index: -300;
@@ -122,6 +124,7 @@ ul li:hover a {
         margin-top: -30px;
 		text-align:justify;
 		font-family: Questrial, sans-serif;
+		background-size: cover;
     }
 
 
