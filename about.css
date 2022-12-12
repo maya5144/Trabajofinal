@@ -11,7 +11,7 @@ body {
 	font-style: normal;
 	font-weight: 200px;
 	background-image:url("images/Background (Web Marialys) [Recuperado].png");
-	background-size:cover; 
+	background-size:100vw 100vh; 
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 		
